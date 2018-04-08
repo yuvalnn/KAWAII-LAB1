@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{18A7E0D6-3126-8351-A687-11E9009DA4A1}</ProjectGuid>
+    <ProjectGuid>{13F0C313-E26E-1F90-63DC-D58B66E57757}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -77,6 +77,8 @@
      <Compile Include="Assets\Movement.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\PropsChange.cs" />
+     <Compile Include="Assets\sleepers\scripts\Random_touch.cs" />
+     <Compile Include="Assets\sleepers\scripts\ShpalaInit.cs" />
      <Compile Include="Assets\Swipe.cs" />
      <Compile Include="Assets\SwipeDirection.cs" />
      <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
