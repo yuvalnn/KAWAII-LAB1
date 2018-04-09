@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{13F0C313-E26E-1F90-63DC-D58B66E57757}</ProjectGuid>
+    <ProjectGuid>{E860991D-BEF2-5CC5-0B6F-34E74F11F3EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,9 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CloseUi.cs" />
-     <Compile Include="Assets\DealDamage.cs" />
-     <Compile Include="Assets\Drag.cs" />
      <Compile Include="Assets\HolyShift\Scripts\CheckForStandardAssets.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Axe.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Crate.cs" />
@@ -74,18 +71,41 @@
      <Compile Include="Assets\LowPolyNature\Scripts\PlayerController.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\PlayerFollow.cs" />
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
-     <Compile Include="Assets\Movement.cs" />
-     <Compile Include="Assets\PlayerMovement.cs" />
-     <Compile Include="Assets\PropsChange.cs" />
+     <Compile Include="Assets\Scripts\CloseUi.cs" />
+     <Compile Include="Assets\Scripts\DealDamage.cs" />
+     <Compile Include="Assets\Scripts\Drag.cs" />
+     <Compile Include="Assets\Scripts\HandleGameProgress.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PropsChange.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
+     <Compile Include="Assets\Scripts\Swipe.cs" />
+     <Compile Include="Assets\Scripts\SwipeDirection.cs" />
      <Compile Include="Assets\sleepers\scripts\Random_touch.cs" />
      <Compile Include="Assets\sleepers\scripts\ShpalaInit.cs" />
-     <Compile Include="Assets\Swipe.cs" />
-     <Compile Include="Assets\SwipeDirection.cs" />
+     <Compile Include="Assets\Tamir\Abyss.cs" />
+     <Compile Include="Assets\Tamir\BaseProjectile.cs" />
+     <Compile Include="Assets\Tamir\Bluff.cs" />
+     <Compile Include="Assets\Tamir\Boss8Ball.cs" />
+     <Compile Include="Assets\Tamir\Bosses\ShootingSystem.cs" />
+     <Compile Include="Assets\Tamir\Bosses\TrackingSystem.cs" />
+     <Compile Include="Assets\Tamir\PickUp.cs" />
+     <Compile Include="Assets\Tamir\Player\Movment.cs" />
+     <Compile Include="Assets\Tamir\PowerUp\Scripts\CustomizablePowerUp.cs" />
+     <Compile Include="Assets\Tamir\PowerUp\Scripts\PowerUpManager.cs" />
+     <Compile Include="Assets\Tamir\PowerUp\Scripts\PowerUpRotation.cs" />
+     <Compile Include="Assets\Tamir\PowerUp\Scripts\ScaleParticles.cs" />
+     <Compile Include="Assets\Tamir\PowerUp\Scripts\TakeablePowerUp.cs" />
+     <Compile Include="Assets\Tamir\PowerUp\Scripts\Utility\Singleton.cs" />
+     <Compile Include="Assets\Tamir\Ricochet.cs" />
      <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
      <None Include="Assets\HolyShift\readme.txt" />
      <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
      <None Include="Assets\HolyShift\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Lowpoly paper boats\doc\readme.txt" />
+     <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
+     <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
+     <None Include="Assets\Tamir\FreePixelFood\ReadMe.txt" />
      <None Include="Assets\HolyShift\Shaders\FXWaterLowpoly.shader" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
