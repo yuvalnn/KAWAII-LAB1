@@ -41,7 +41,7 @@ public class BaseProjectile : MonoBehaviour
 
         if (BulletEndTime < FirstTime)
         {
-            //Destroy(this);
+            Destroy(this);
 
         }
       

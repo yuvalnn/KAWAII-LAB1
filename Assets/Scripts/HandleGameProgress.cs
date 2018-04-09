@@ -67,7 +67,7 @@ public class HandleGameProgress : MonoBehaviour {
         HealthBar.value = 100;
         Panel.gameObject.SetActive(false);
         GetComponent<DealDamage>().enabled = true;
-        Boss.gameObject.SetActive(true);
+        Boss.gameObject.SetActive(false);
         GamePoints.gameObject.GetComponent<Text>().text = "Points : 0";
         Drag.CurrentenumIndex = 0;
         Drag.startLiveTime = 0;
